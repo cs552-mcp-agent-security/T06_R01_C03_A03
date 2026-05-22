@@ -24,6 +24,7 @@ Future<void> main() async {
 final supportedLocales = const [
   const Locale('en', 'US'),
   const Locale('fi', 'FI'),
+  const Locale('de', 'DE'),
 ];
 
 final localizationsDelegates = <LocalizationsDelegate>[
